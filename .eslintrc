@@ -1,0 +1,24 @@
+{
+    "rules": {
+        "no-console": 0,
+        "no-promise-executor-return": 0,
+        "implicit-arrow-linebreak": 0,
+        "operator-linebreak": 0,
+        "function-paren-newline": 0
+    },
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "airbnb-base",
+        "airbnb-typescript/base"
+    ]
+}
