@@ -11,7 +11,6 @@
     "build": "tsup ./src/main.ts --format esm --dts --clean",
     "start": "npm run clean && npm run build && node ./dist/main.js",
     "dev": "NODE_ENV=development nodemon --watch src --exec 'npm run start' ./src/main.ts",
-    "proxy": "ssh -N -R 9000:127.0.0.1:8084 -p2222 root@107.173.25.162"
   },
   "keywords": [],
   "author": "",
